@@ -2,24 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>edu.cmu.sphinx.demo</groupId>
-		<artifactId>sphinx-demo-root</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath>..</relativePath>
-	</parent>
 
-	<artifactId>sphinx4-hello_world</artifactId>
-	<name>Shinx - Demo - hello_world module</name>
+	<groupId>edu.cmu.sphinx.demo</groupId>
+	<artifactId>sphinx4-hello_world-lt</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>Shinx - Demo - hello_world module(Lithuanian)</name>
 
 	<dependencies>
 		<dependency>
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>edu.cmu.sphinx.model</groupId>
-			<artifactId>WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz</artifactId>
+			<groupId>edu.cmu.sphinx.model.lt</groupId>
+			<artifactId>lt.cd_cont_200</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -34,4 +32,28 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories>
+		<repository>
+			<id>spnt-global-repo-release</id>
+			<name>Spantus releases and 3rd party repo</name>
+			<url>http://repository-spantus.forge.cloudbees.com/release/</url>
+			<releases>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spnt-global-repo-snapshot</id>
+			<name>Spantus releases and 3rd party repo</name>
+			<url>http://repository-spantus.forge.cloudbees.com/snapshot/</url>
+			<releases>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>		
+	</repositories>
 </project>

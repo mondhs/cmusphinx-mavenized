@@ -25,6 +25,7 @@
 
 	<modules>
 		<module>sphinx4-hello_world</module>
+                <module>sphinx4-hello_world-lt</module>
 	</modules>
 
 </project>
