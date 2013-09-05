@@ -17,6 +17,7 @@ This dir contains sphinx demo applications.
 ### How put this into my maven project?
 
 *   you should add repository where artifacts deployed:
+```xml
 	<repositories>
 		<repository>
 			<id>spnt-global-repo-release</id>
@@ -30,18 +31,23 @@ This dir contains sphinx demo applications.
 			</snapshots>
 		</repository>
 	</repositories>
+```
 *   you should add sphix depenency :
+```xml
 		<dependency>
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4</artifactId>
 			<version>1.0.6</version>
 		</dependency>
+```
 *   you should add sphix model :
+```xml
 		<dependency>
 			<groupId>edu.cmu.sphinx.model.lt</groupId>
 			<artifactId>lt.cd_cont_200</artifactId>
 			<version>1.0</version>
 		</dependency>
+```
 * you can add implementation based on sphinx.
 
 ### Acoustic model
