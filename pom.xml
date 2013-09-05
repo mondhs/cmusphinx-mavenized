@@ -13,7 +13,9 @@
 	<scm>
 		<connection>https://cmusphinx.svn.sourceforge.net/svnroot/cmusphinx/trunk/sphinx4</connection>
 	</scm>
-
+	<properties>
+	    <altDeploymentRepository>cloudbees-private-snapshot-repository::default::dav:https://repository-spantus.forge.cloudbees.com/snapshot/</altDeploymentRepository>
+	</properties>
 
 	<modules>
 		<module>sphinx4</module>

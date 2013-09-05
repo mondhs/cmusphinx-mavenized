@@ -21,8 +21,10 @@ Only one demo is ported is hello world. See more info in demo folder
 
 ### Build this
 
-*   you need JDK6 and Maven(DEV guide http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
-*   check out this code with git(https://help.github.com/articles/set-up-git) and (http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)
-*   build with maven: mvn clean install
+*   you need JDK6 and Maven
+    * (DEV guide http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+*   check out this code with git
+    * (https://help.github.com/articles/set-up-git) and (http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)
+*   build with maven: _mvn clean install_
 *   run demo see in demo folder
 
