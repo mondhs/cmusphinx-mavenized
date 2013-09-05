@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>edu.cmu.sphinx</groupId>
+		<artifactId>sphinx-root</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	
+	<groupId>edu.cmu.sphinx.demo</groupId>
+	<artifactId>sphinx-demo-root</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+	
+	<name>Sphinx Demo Root</name>
+	<url>http://cmusphinx.sourceforge.net/</url>
+	<scm>
+		<connection>https://cmusphinx.svn.sourceforge.net/svnroot/cmusphinx/trunk/sphinx4</connection>
+	</scm>
+
+
+	<modules>
+		<module>sphinx4-hello_world</module>
+	</modules>
+
+</project>
