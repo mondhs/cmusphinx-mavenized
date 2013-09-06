@@ -17,15 +17,10 @@
 	<packaging>pom</packaging>
 	
 	<name>Sphinx Demo Root</name>
-	<url>http://cmusphinx.sourceforge.net/</url>
-	<scm>
-		<connection>https://cmusphinx.svn.sourceforge.net/svnroot/cmusphinx/trunk/sphinx4</connection>
-	</scm>
-
 
 	<modules>
 		<module>sphinx4-hello_world</module>
-                <module>sphinx4-hello_world-lt</module>
+        <module>sphinx4-hello_world-lt</module>
 	</modules>
 
 </project>

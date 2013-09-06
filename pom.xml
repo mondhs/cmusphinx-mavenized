@@ -19,8 +19,22 @@
 
 	<modules>
 		<module>sphinx4</module>
-		<module>demo</module>
 	</modules>
+	
+	<profiles>
+		<profile>
+			<id>demo-module</id>
+			<activation>
+				<property>
+					<name>!release</name>
+				</property>
+			</activation>
+			<modules>
+				<module>demo</module>
+			</modules>
+		</profile>
+	</profiles>
+
 
 	<dependencies>
 		<dependency>
@@ -135,19 +149,17 @@
 			<id>cloudbees-repository-release</id>
 			<name>cloudbees-repository-release</name>
 			<url>dav:https://repository-spantus.forge.cloudbees.com/release</url>
-			<!--<url>scpexe://shell.sourceforge.net/home/groups/s/sp/spantus/htdocs/repository</url> -->
 		</repository>
 		<snapshotRepository>
 			<id>cloudbees-repository-sanpshot</id>
 			<name>cloudbees-repository-sanpshot</name>
 			<url>dav:https://repository-spantus.forge.cloudbees.com/snapshot</url>
-			<!--<url>scpexe://shell.sourceforge.net/home/groups/s/sp/spantus/htdocs/snapshot-repo</url> -->
 		</snapshotRepository>
 	</distributionManagement>
 	<licenses>
 		<license>
-			<name>GNU General Public License, version 3</name>
-			<url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+			<name>Carnegie Mellon University.</name>
+			<url>http://cmusphinx.sourceforge.net/</url>
 			<comments>Read the COPYING file</comments>
 			<distribution>repo</distribution>
 		</license>

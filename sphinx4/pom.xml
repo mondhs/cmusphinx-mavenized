@@ -7,12 +7,7 @@
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-
 	<artifactId>sphinx4</artifactId>
 	<name>Sphinx - Core module</name>
-
-	<dependencies>
-	
-	</dependencies>
 
 </project>
