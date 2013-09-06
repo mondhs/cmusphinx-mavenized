@@ -19,6 +19,7 @@
 
 	<modules>
 		<module>sphinx4</module>
+		<module>sphinx4-jsapi</module>
 	</modules>
 	
 	<profiles>
@@ -92,6 +93,11 @@
 			<dependency>
 				<groupId>edu.cmu.sphinx</groupId>
 				<artifactId>sphinx4</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>edu.cmu.sphinx</groupId>
+				<artifactId>sphinx4-jsapi</artifactId>
 				<version>1.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
