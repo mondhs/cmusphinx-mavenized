@@ -20,7 +20,11 @@
 
 	<modules>
 		<module>sphinx4-hello_world</module>
-        <module>sphinx4-hello_world-lt</module>
+		<module>sphinx4-hello_world-lt</module>
+		<module>sphinx4-confidence</module>
+		<module>sphinx4-lattice</module>
+		<module>sphinx4-live</module>
+		<module>sphinx4-transcriber</module>
 	</modules>
 
 </project>

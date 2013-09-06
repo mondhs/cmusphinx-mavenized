@@ -5,7 +5,7 @@
 
 	<groupId>edu.cmu.sphinx.demo</groupId>
 	<artifactId>sphinx4-hello_world-lt</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.6</version>
 	<name>Shinx - Demo - hello_world module(Lithuanian)</name>
 	<!-- spantus repo contains sphinx maven artifacts -->
 	<repositories>
@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>edu.cmu.sphinx</groupId>
 			<artifactId>sphinx4</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>edu.cmu.sphinx.model.lt</groupId>
